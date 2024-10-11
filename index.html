@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0" />
+    <title>CodeTech Solutions</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="Imagenes/Logo.jpg">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagenes/LOGO_1.svg" alt="">
+        </div>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fa fa-bars"></i> <!-- Icono de menú hamburguesa -->
+        </div>
+        <div class="navigation" id="nav-menu">
+            <nav>
+                <ul>
+                    <li> <a href="#Ini" data-text="Inicio">Inicio</a></li>
+                    <li> <a href="#Acerca_Mi" data-text="Acerca de mi">Acerca de mi</a></li>
+                    <li> <a href="#Total_Proyectos" data-text="Proyectos">Proyectos</a></li>
+                    <li> <a href="#Total_Servicios" data-text="Servicios">Servicios</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a href="https://api.whatsapp.com/send/?phone=+51904065007&text=¡Hola!%20Estoy%20interesado%20en%20tus%20servicios.%20¿Podrías%20darme%20más%20información?"
+            target="_blank" class="btn">
+            <span id="span1"> </span>
+            <span id="span2"> </span>
+            <span id="span3"> </span>
+            <span id="span4"> </span>
+            Contacto</a>
+    </header>
+    <section class="Inicio_" id="Ini">
+        <img src="Imagenes/Portada.jpg" alt="" class="Fondo3">
+        <div class="Eslogan">
+            <p data-text="CodeTech Solutions Impulsamos tu Futuro con Tecnología y Creatividad">CodeTech Solutions
+                Impulsamos tu Futuro con Tecnología y Creatividad
+            </p>
+            <p data-text="¡Error Code 404!">¡Error Code 404!</p>
+        </div>
+    </section>
+
+    <div class="About" id="Acerca_Mi">
+        <img src="Imagenes/User.jpg" alt="" class="Usuario">
+        <div class="About_Titulo">
+            <h1>Esteban Eduado Cardenas Perez</h1>
+            <h2>Desarrollador de Software</h2>
+            <p>Soy un profesional con una sólida experiencia en el campo de la tecnología.
+                Mi enfoque principal es la creación de páginas web atractivas y funcionales,
+                así como la gestión de bases de datos para garantizar un flujo de información eficiente.
+                Mi experiencia abarca desde el diseño y desarrollo de sitios web modernos y
+                receptivos hasta la implementación de sistemas de base de datos eficaces. Además,
+                ofrezco servicios de mantenimiento y soporte de computadoras para garantizar que su
+                infraestructura tecnológica funcione sin problemas.</p>
+        </div>
+    </div>
+
+    <div class="Tecnicas">
+        <h1>Habilidades Tecnicas</h1>
+    </div>
+    <div class="Habilidades">
+
+        <div class="Habilidades_Lenguaje">
+            <h1>Lenguajes de Programacion</h1>
+            <img src="Imagenes/Java-Logo.svg" alt="">
+            <img src="Imagenes/Python-Logo.svg" alt="">
+            <img src="Imagenes/JavaScript.svg" alt="">
+        </div>
+        <div class="Habilidades_Frameworks">
+            <h1>Conocimientos de Frameworks</h1>
+            <img src="Imagenes/React-Logo.svg" alt="">
+            <img src="Imagenes/Laravel-Logo.svg" alt="">
+            <img src="Imagenes/Bootstrap.svg" alt="">
+        </div>
+        <div class="Habilidades_Conocimientos">
+            <h1>Otros Conocimientos</h1>
+            <img src="Imagenes/Mantenimiento-computadoras.svg" alt="">
+            <img src="Imagenes/Blender.svg" alt="">
+            <img src="Imagenes/Edicion-Videos.svg" alt="">
+        </div>
+
+        <div class="Habilidades_Cursos">
+            <h1>Certificados de cursos</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Desarollo_Web.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Desarollo_Web.svg')">Ver Certificado</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Laravel-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Laravel-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Phyton-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Phyton-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Laravel-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Laravel-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/QA-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/QA-Certificado.svg')">Ver Certificado</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Git-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Git-Certificado')">Ver Certificado</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Soporte-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Soporte-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/React-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/React-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/Java-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/Java-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="curso-img">
+                            <img src="Imagenes/IA-AZURE-Certificado.svg" alt="">
+                        </div>
+                        <a href="#" class="btn-1" onclick="openModal('Imagenes/IA-AZURE-Certificado.svg')">Ver
+                            Certificado</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para la imagen a pantalla completa -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <section id="Total_Proyectos">
+
+        <div class="carrusel">
+            <h1>Mis Proyectos</h1>
+            <div class="grande">
+                <a href="https://brismartlogistic.com/" target="_blank"> <img src="Imagenes/Proyecto1.png"
+                        alt="Imagen 1" class="img"></a>
+                <a href="https://dulceehogar.com/" target="_blank"> <img src="Imagenes/Proyecto2.png" alt="Imagen 2" class="img2"></a>
+                <a href=""> <img src="Imagenes/Fondo3.jpg" alt="Imagen 3" class="img3"></a>
+            </div>
+            <ul class="puntos">
+                <li class="punto activo"></li>
+                <li class="punto"></li>
+                <li class="punto"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Total_Servicios">
+        <div class="Titulo">
+            <h1> Mis Servicios</h1>
+        </div>
+        <div class="Servicios">
+
+            <div class="card">
+                <div class="Servicio1">
+                    <div class="imagen_Servicio1"></div>
+                    <div class="detalle">
+                        <h2>Desarrollo de Sitios web</h2>
+                        <p>Nuestro servicio de desarrollo de sitios web está diseñado para
+                            crear plataformas online efectivas y atractivas.
+
+                        </p>
+                        <div class="btn"> <a
+                                href="https://api.whatsapp.com/send/?phone=+51904065007&text=¡Hola!%20Estoy%20interesado%20en%20tus%20servicios.%20¿Podrías%20darme%20más%20información?"
+                                target="_blank">
+                                <h6>Contactame</h6>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="Servicio2">
+                    <div class="imagen_Servicio2"></div>
+                    <div class="detalle_2">
+                        <h2>Mantenimiendo de Computadoras</h2>
+                        <p>Nuestro servicio de mantenimiento de computadoras está diseñado para
+                            garantizar que su equipo funcione de manera eficiente y segura.</p>
+                        <div class="btn"> <a
+                                href="https://api.whatsapp.com/send/?phone=+51904065007&text=¡Hola!%20Estoy%20interesado%20en%20tus%20servicios.%20¿Podrías%20darme%20más%20información?"
+                                target="_blank">
+                                <h6>Contactame</h6>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="Servicio3">
+                    <div class="imagen_Servicio3"></div>
+                    <div class="detalle_3">
+                        <h2>Soporte Tecnico Remoto</h2>
+                        <p>Nuestro servicio de soporte técnico remoto está diseñado para brindarle asistencia
+                            inmediata y eficiente sin la necesidad de desplazamientos. </p>
+                        <div class="btn"> <a
+                                href="https://api.whatsapp.com/send/?phone=+51904065007&text=¡Hola!%20Estoy%20interesado%20en%20tus%20servicios.%20¿Podrías%20darme%20más%20información?"
+                                target="_blank">
+                                <h6>Contactame</h6>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="Servicio4">
+                    <div class="imagen_Servicio4"></div>
+                    <div class="detalle_3">
+                        <h2>Instalacion de Programas</h2>
+                        <p> Nuestro servicio de instalación de software está diseñado para simplificar y agilizar
+                            el proceso de implementación de nuevas aplicaciones en sus dispositivos.</p>
+                        <div class="btn"> <a
+                                href="https://api.whatsapp.com/send/?phone=+51904065007&text=¡Hola!%20Estoy%20interesado%20en%20tus%20servicios.%20¿Podrías%20darme%20más%20información?"
+                                target="_blank">
+                                <h6>Contactame</h6>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="Redes">
+
+            <div id="slide">
+
+                <div class="item" style="background-image: url(Imagenes/Tiktok_Portada.jpg);">
+                    <div class="contenido">
+                        <div class="red">Tiktok</div>
+                        <div class="contexto"> Conoce mi mundo de videojuegos y tecnologias. !Diviertete!
+                        </div>
+                        <a href="https://www.tiktok.com/@korakiller_?lang=es"
+                            target="_blank"><button>Sigueme</button></a>
+                    </div>
+                </div>
+
+
+                <div class="item" style="background-image: url(Imagenes/Red.png);">
+                    <div class="contenido">
+                        <div class="red">Redes Sociales</div>
+                        <div class="contexto">¡Conéctate conmigo en mis redes sociales para descubrir más sobre mi
+                            mundo tecnológico!</div>
+
+                    </div>
+                </div>
+
+
+                <div class="item" style="background-image: url(Imagenes/Linkedin.webp);">
+                    <div class="contenido">
+                        <div class="red">Linkedin</div>
+                        <div class="contexto">Revisa mi perfil Profesional para que conozcas mis ambito laboral.</div>
+                        <a href="https://www.linkedin.com/in/esteban-eduardo-cardenas-p%C3%A9rez-545238241/"
+                            target="_blank"><button>Sigueme</button></a>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(Imagenes/Facebook_Portada.jpg);">
+                    <div class="contenido">
+                        <div class="red">Facebook</div>
+                        <div class="contexto">¡Conéctate conmigo en mis redes sociales para descubrir más sobre mi
+                            mundo tecnológico!
+                        </div>
+                        <a href="https://www.facebook.com/profile.php?id=61564968620856"
+                            target="_blank"><button>Sigueme</button></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo_foter">
+                    <img src="Imagenes/Logo.jpg" alt="">
+                </div>
+                <div class="Sobre_Mi">
+                    <p>Como freelancer especializado en tecnología, ofrezco una amplia gama de servicios
+                        adaptados para satisfacer las necesidades digitales de mis clientes.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">Desarrollo Web</a>
+                <a href="#">Mantenimiento de equipos</a>
+                <a href="#">Instalacion de Programas</a>
+            </div>
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.facebook.com/profile.php?id=61564968620856" target="_blank"> <i
+                        class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.tiktok.com/@korakiller_?lang=es" target="_blank"> <i
+                        class="fa-brands fa-tiktok"></i> Tiktok</a>
+                <a href="https://www.linkedin.com/in/esteban-eduardo-cardenas-p%C3%A9rez-545238241/" target="_blank"> <i
+                        class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#" target="_blank"> <i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2024 <b>CodeTech Solutions</b></p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
