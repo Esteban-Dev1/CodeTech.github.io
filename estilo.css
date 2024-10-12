@@ -572,7 +572,7 @@ nav ul li a {
     width: 200px;
     border-radius: 30px;
     background-position: center;
-    background-image: url(Imagenes/Sitios_web1.jpg);
+    background-image: url(Imagenes/Servicios/Sitios_web1.jpg);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -584,7 +584,7 @@ nav ul li a {
     height: 200px;
     width: 200px;
     border-radius: 30px;
-    background-image: url(Imagenes/Mantenimiento.jpg);
+    background-image: url(Imagenes/Servicios/Mantenimiento.jpg);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -595,7 +595,7 @@ nav ul li a {
 .imagen_Servicio3 {
     height: 200px;
     width: 200px;
-    background-image: url(Imagenes/Soporte.jpg);
+    background-image: url(Imagenes/Servicios/Soporte.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 200px;
@@ -607,7 +607,7 @@ nav ul li a {
 .imagen_Servicio4 {
     height: 200px;
     width: 200px;
-    background-image: url(/Imagenes/Instalacion-Programas.svg);
+    background-image: url(Imagenes/Servicios/Instalacion-Programas.svg);
     background-size: cover;
     border-radius: 10%;
     margin-bottom: 200px;
@@ -644,7 +644,7 @@ nav ul li a {
     transform: translatey(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url(Imagenes/Sitios_web.jpg);
+    background-image: url(Imagenes/Servicios/Sitios_web.jpg);
     border-radius: 30px;
 }
 
@@ -653,7 +653,7 @@ nav ul li a {
     transition: 300ms;
     filter: none;
 
-    background-image: url(Imagenes/Mantenimiento1.png );
+    background-image: url(Imagenes/Servicios/Mantenimiento1.png );
     background-color: #040c3a;
     background-size: contain;
     background-repeat: no-repeat;
@@ -664,14 +664,14 @@ nav ul li a {
     transform: translatey(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url(Imagenes/Soporte_Tenico1.png);
+    background-image: url(Imagenes/Servicios/Soporte_Tenico1.png);
 }
 
 .card:hover .imagen_Servicio4 {
     transform: translatey(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url(Imagenes/Instalacion-Programas2.svg);
+    background-image: url(Imagenes/Servicios/Instalacion-Programas2.svg);
 }
 
 
